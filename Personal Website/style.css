@@ -115,12 +115,12 @@ section {
   width: 20%;
   margin-top: 60px;
   margin-left: 150px;
+  border-radius: 15px;
   box-shadow: 4px 4px 20px gray;
 }
 .side-by-side img:hover{
   box-shadow: 8px 8px 25px rgb(125, 46, 46);
 }
-
 .latest-work-part {
   background-image: url(Images-source/latest-work-bg.png);
   background-repeat: no-repeat;
