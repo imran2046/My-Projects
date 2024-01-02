@@ -1,17 +1,19 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
 div h3 {
   margin-left: 31px;
   font-size: 25px;
-  font-family: Arial, Helvetica, sans-serif;
+  
 }
 div h2 {
   margin-left: 31px;
   font-size: 30px;
-  font-family: Arial, Helvetica, sans-serif;
   color: #ff0066;
 }
 p {
   margin-left: 31px;
-  font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
   color: gray;
 }
@@ -27,7 +29,7 @@ p {
   margin-left: -30px;
 }
 
-#Hire-me-btn {
+#link-btn {
   float: left;
   margin-top: 6%;
   text-decoration: none;
@@ -37,14 +39,63 @@ p {
   border-radius: 6px;
   font-family: sans-serif;
 }
-#Hire-me-btn:hover {
+#link-btn:hover {
   background-image: linear-gradient(to left, #ff0682, #ff41b0);
   border: 2px solid lightblue;
 }
-section{
-    height: 550px;
+section {
+  height: 550px;
 }
-.Header{
-    background-image: url(Images-source/footer-bg.png);
-    background-repeat: no-repeat;
+.Header {
+  background-image: url(Images-source/footer-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
 }
+
+#biography-img {
+  width: 110%;
+  margin-left: 31px;
+  margin-top: -30%;
+}
+#bio-head {
+  margin-left: -25px;
+  margin-top: -10%;
+}
+#bio-para {
+  margin-left: -25px;
+}
+.biography-part {
+  background-image: url(Images-source/biography-bg.png);
+  background-repeat: no-repeat;
+}
+
+#latest-work-head{
+  margin-top:200px;
+  text-align: center;
+}
+.latest-work-img1 img{
+  width: 18%;
+  margin-top: 5.5%;
+  margin-left: 18%;
+  float: left;
+  box-shadow: 4px 4px 20px gray;
+}
+.latest-work-img2 img{
+  float: left;
+  width: 18%;
+  margin-top: 5.5%;
+  margin-left: 7.2%;
+  box-shadow: 4px 4px 20px gray;
+}
+.latest-work-img3 img{
+  float: left;
+  width: 18%;
+  margin-top: -13.5%;
+  margin-left: 68%;
+  box-shadow: 4px 4px 20px gray;
+}
+.latest-work-part{
+  background-image: url(Images-source/latest-work-bg.png);
+  background-repeat: no-repeat;
+}
+
