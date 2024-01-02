@@ -1,0 +1,50 @@
+div h3 {
+  margin-left: 31px;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+div h2 {
+  margin-left: 31px;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #ff0066;
+}
+p {
+  margin-left: 31px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: gray;
+}
+.half-width-box {
+  width: 30%;
+  float: left;
+  margin: 5%;
+  padding: 5%;
+}
+#Head-img {
+  width: 110%;
+  margin-top: -20px;
+  margin-left: -30px;
+}
+
+#Hire-me-btn {
+  float: left;
+  margin-top: 6%;
+  text-decoration: none;
+  color: white;
+  background-image: linear-gradient(to left, #ff41b0, #ff0682);
+  padding: 8px 12px;
+  border-radius: 6px;
+  font-family: sans-serif;
+}
+#Hire-me-btn:hover {
+  background-image: linear-gradient(to left, #ff0682, #ff41b0);
+  border: 2px solid lightblue;
+}
+section{
+    height: 550px;
+}
+.Header{
+    background-image: url(Images-source/footer-bg.png);
+    background-repeat: no-repeat;
+}
