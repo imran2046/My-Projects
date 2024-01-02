@@ -5,7 +5,6 @@ body {
 div h3 {
   margin-left: 31px;
   font-size: 25px;
-  
 }
 div h2 {
   margin-left: 31px;
@@ -69,11 +68,11 @@ section {
   background-repeat: no-repeat;
 }
 
-#latest-work-head{
-  margin-top:200px;
+#latest-work-head {
+  margin-top: 200px;
   text-align: center;
 }
-.latest-work-img1 img{
+/*.latest-work-img1 img{
   width: 18%;
   margin-top: 5.5%;
   margin-left: 18%;
@@ -93,9 +92,71 @@ section {
   margin-top: -13.5%;
   margin-left: 68%;
   box-shadow: 4px 4px 20px gray;
+}*/
+
+.latest-work-img img {
+  width: 100%;
+  border-radius: 15px;
 }
-.latest-work-part{
-  background-image: url(Images-source/latest-work-bg.png);
-  background-repeat: no-repeat;
+.latest-work-img {
+  margin-top: 60px;
+  margin-left: 146px;
+  float: left;
+  width: 20%;
+  border-radius: 15px;
+  box-shadow: 4px 4px 20px gray;
+}
+.latest-work-img:hover{
+  box-shadow: 8px 8px 25px rgb(125, 46, 46);
 }
 
+.latest-work-part {
+  background-image: url(Images-source/latest-work-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+#bruce-moccay{
+text-align: center;
+margin-top: 80px;
+}
+#founder{
+  text-align: center;
+  font-size: 14px;
+  margin-left: auto;
+}
+#footer-para{
+  text-align: center;
+  font-weight: normal;
+  font-size: 15px;
+  margin-top: 50px;
+  font-weight: 550;
+  color:darkslategray
+}
+.para-box{
+  width: 50%;
+  margin: auto;
+}
+
+.footer {
+  background-image: url(Images-source/footer-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+.contact{
+  text-align: center;
+  font-size: 12px;
+  margin-top: 50px;
+  color: white;
+  border-radius: 10px;
+  padding: 2px;
+  background-image: linear-gradient(90deg,#ff0080,#ff0051);
+}
+.contact:hover{
+  background-image: linear-gradient(90deg,#ff0051,#ff0080);
+}
+
+footer{
+  text-align: center;
+  color: gray;
+}
